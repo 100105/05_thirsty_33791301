@@ -1,14 +1,59 @@
+/* Global Styles */
 body {
   background-color: bisque;
   font-family: Arial, sans-serif;
   color: #8b0000;
   margin: 0;
   padding: 0;
+  line-height: 1.6; /* improves readability */
 }
 
+/* Main heading */
 h1 {
   text-align: center;
   background-color: #8b0000;
   color: bisque;
+  padding: 20px 0; /* top & bottom padding only */
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 20px 20px 20px; /* consistent spacing */
+}
+
+/* Links */
+a {
+  color: #8b0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional container for better readability */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
+  background-color: #fff7e6; /* subtle contrast to bisque */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons (for forms etc.) */
+button {
+  background-color: #8b0000;
+  color: bisque;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #a30000; /* darker on hover */
 }
