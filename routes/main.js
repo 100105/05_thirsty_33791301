@@ -62,14 +62,14 @@ router.get("/survey", (req, res) => {
     res.render("survey.ejs", shopData);
 }); 
 
-// Survey submission
+// Survey submits
 router.post("/survey_submitted", (req, res) => {
     const surveyData = {
         ...req.body,
-        student: req.body.student ? true : false  // convert checkbox to boolean
+        student: req.body.student ? true : false  
     };
 
-    res.render("survey_results", {  // fixed file name
+    res.render("survey_results", {  
         shopName: shopData.shopName,
         data: surveyData
     });

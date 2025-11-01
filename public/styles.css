@@ -1,11 +1,11 @@
-/* Global Styles */
+/* main design*/
 body {
   background-color: bisque;
   font-family: Arial, sans-serif;
   color: #8b0000;
   margin: 0;
   padding: 0;
-  line-height: 1.6; /* improves readability */
+  line-height: 1.6; 
 }
 
 /* Main heading */
@@ -13,18 +13,18 @@ h1 {
   text-align: center;
   background-color: #8b0000;
   color: bisque;
-  padding: 20px 0; /* top & bottom padding only */
+  padding: 20px 0; /* head and foot only */
   margin: 0;
   font-size: 2em;
   letter-spacing: 1px;
 }
 
-/* Paragraphs */
+/* spacing */
 p {
-  margin: 0 20px 20px 20px; /* consistent spacing */
+  margin: 0 20px 20px 20px;
 }
 
-/* Links */
+/* links */
 a {
   color: #8b0000;
   text-decoration: none;
@@ -34,17 +34,17 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Optional container for better readability */
+/* makes it neater */
 .container {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff7e6; /* subtle contrast to bisque */
+  background-color: #fff7e6; 
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Buttons (for forms etc.) */
+/* Buttons */
 button {
   background-color: #8b0000;
   color: bisque;
@@ -55,5 +55,5 @@ button {
 }
 
 button:hover {
-  background-color: #a30000; /* darker on hover */
+  background-color: #a30000; /* darker when mouse hovers over */
 }
